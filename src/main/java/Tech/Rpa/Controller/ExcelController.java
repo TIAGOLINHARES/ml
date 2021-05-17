@@ -29,7 +29,7 @@ public class ExcelController {
 				cell.setCellValue(produto.getNome());
 				
 				cell = row.createCell(1);
-				cell.setCellValue(produto.getUrl());
+				cell.setCellValue(produto.getPreco());
 				
 				
 			}
